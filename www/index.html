@@ -1,0 +1,25 @@
+﻿<!doctype html>
+ <html ng-controller="AppCtrl" 
+  lang="{{LanguageCode}}" dir="{{TextDirection}}">
+  <head>
+   <meta charset="utf-8" />
+   <title>{{ App.Name }}</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="Content-Security-Policy"
+    content="default-src * data: mediastream: blob: filesystem: gap: 'unsafe-inline' 'unsafe-eval';" />
+   <meta name="generator" content="App Builder v2016.118 - https://www.davidesperalta.com/" />
+   <meta name="description" content="Apologizer - Pls work !" />
+   <meta name="author" content="Mehmet Can - mcanmutaf@outlook.com - https://www.github.com/" />
+   <link rel="shortcut icon" href="app/images/icon.png" type="image/x-icon" />
+   <link rel="stylesheet" type="text/css" id="appTheme" href="builder/styles/darkly.css" />
+   <link rel="stylesheet" type="text/css" href="builder/styles/builder.css" />
+   <link rel="stylesheet" type="text/css" id="appStyle" href="app/styles/fixed.css" />
+   
+  </head>
+  <body ng-view ng-controller="AppEventsCtrl">
+   <script src="builder/scripts/builder.js"></script>
+   <script src="app/scripts/app.js"></script>
+   <script src="cordova.js"></script>
+   
+  </body>
+ </html>
